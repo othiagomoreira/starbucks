@@ -1,12 +1,125 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
 
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #111111;
 }
 
+.container {
+    max-width: 85vw;
+    margin: 0 auto;
+}
+
 .titles {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
+}
+
+/* Header */
+.line {
+    background-color: #117050;
+    width: 100%;
+    height: 10px;
+}
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+}
+
+.header-area .logo {
+    width: 64px;
+    height: 64px;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.rightside form {
+    display: flex;
+    align-items: center;
+}
+
+.rightside input {
+    width: 100%;
+    max-width: 240px;
+    padding: 0.5rem 0.75rem;
+    
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #999999;
+}
+
+.rightside  button {
+    border: 0;
+    background: transparent;
+    margin-left: -25px;
+
+    cursor: pointer;
+}
+
+.rightside button img {
+    width: 16px;
+    height: 16px;
+}
+
+.rightside .menu {
+    width: 24px;
+    height: 24px;
+
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    background: url(assets/bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.text-banner {
+    max-width: 550px;
+    padding: 0 21px;
+}
+
+.text-banner h1  {
+    font-size: 6rem;
+    line-height: 1.1;
+}
+
+.text-banner p {
+    margin: 3rem 0;
+}
+
+.coffee-images-row {
+    display: flex;
+    gap: 2rem;
+    padding: 0 21px;
+}
+
+.coffee-images-row .coffee {
+    width: 150px;
+    height: 150px; 
+}
+
+.coffee-images-row .coffee img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 6px solid #117050;
+    border-radius: 50%;
 }
