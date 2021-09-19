@@ -18,7 +18,7 @@ img {
 }
 
 .container {
-    max-width: 85vw;
+    max-width: 80vw;
     margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ img {
 
 .text-banner {
     max-width: 550px;
-    padding: 0 21px;
+    padding: 0 1rem;
 }
 
 .text-banner h1  {
@@ -115,7 +115,7 @@ img {
 .coffee-images-row {
     display: flex;
     gap: 2rem;
-    padding: 0 21px;
+    padding: 0 1rem;
 }
 
 .coffee-images-row .coffee {
@@ -234,7 +234,35 @@ img {
     align-items: center;
 }
 
-.area-caramel .card-description {
-    max-width: 300px;
+.caramel-background .card-description {
     margin: 0;
 }
+
+
+/* Cups of Kindness collection */
+.cups-collection {
+    background:url(assets/bg3.jpg) no-repeat center;
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+.cups-collection .card-description {
+    background: linear-gradient(to right top, #f3b0b0af 30%, transparent 70%);
+    box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.33);
+    border-radius: 0.5rem;
+
+    margin: 0;
+    max-width: 330px;
+}
+
+.cups-collection .btn-content {
+    background-color: #454544;
+    color: #999999;
+}
+
+.cups-collection .btn-content:hover{
+    background: transparent;
+    color: #454544;
+}
+
+
