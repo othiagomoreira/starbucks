@@ -241,7 +241,8 @@ img {
 
 /* Cups of Kindness collection */
 .cups-collection {
-    background:url(assets/bg3.jpg) no-repeat center;
+    background:url(assets/bg3.jpg) center;
+    background-position: 200px;
     background-size: cover;
     padding: 6rem 0;
 }
@@ -264,5 +265,8 @@ img {
     background: transparent;
     color: #454544;
 }
+
+/* Tea Time */
+
 
 
